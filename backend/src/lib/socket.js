@@ -10,7 +10,7 @@ const io = new Server(server, {
     origin: [
       'http://localhost:5173',
       'http://localhost:5174',
-      'https://chitzy-ra2c.vercel.app/',
+      'https://chitzy-ra2c.vercel.app',
     ],
     credentials: true,
   },
